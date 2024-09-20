@@ -4,9 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-/*public class TesteoPruebas : MonoBehaviour
+public class GameManager : MonoBehaviour
 {
-    private static TesteoPruebas _instance;
+    private static GameManager _instance;
     public bool one = false;
     public bool two = false;
 
@@ -16,11 +16,11 @@ using UnityEngine.SceneManagement;
     }
 
     public void TWO()
-    { 
+    {
         two = true;
     }
 
-    public static TesteoPruebas Instance
+    public static GameManager Instance
     {
         get
         {
@@ -41,7 +41,5 @@ using UnityEngine.SceneManagement;
     {
         SceneManager.LoadScene(0);
     }
-    
 
-    
-}*/
+}
