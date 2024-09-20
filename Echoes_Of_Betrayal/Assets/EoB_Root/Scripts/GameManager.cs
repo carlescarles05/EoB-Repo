@@ -37,9 +37,9 @@ public class GameManager : MonoBehaviour
         _instance = this;
     }
 
-    public void ChargeScene()
+    public void ChargeScene(string name)
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(name);
     }
 
 }
