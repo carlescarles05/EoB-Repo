@@ -7,17 +7,35 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     private static GameManager _instance;
-    public bool one = false;
-    public bool two = false;
+    public bool perezoso = false;
+    public bool vaso = false;
+    public bool llaves = false;
+    public bool movil = false;
+    public bool cuchillo = false;
 
-    public void ONE()
+    public void PEREZOSO()
     {
-        one = true;
+        perezoso = true;
     }
 
-    public void TWO()
+    public void VASO()
     {
-        two = true;
+         vaso = true;
+    }
+
+    public void LLAVES()
+    {
+        llaves = true;  
+    }
+
+    public void MOVIL()
+    {
+        movil = true;
+    }
+
+    public void CUCHILLO()
+    {
+        cuchillo = true;
     }
 
     public static GameManager Instance
