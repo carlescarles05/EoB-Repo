@@ -13,6 +13,8 @@ public class GameManager : MonoBehaviour
     public bool movil = false;
     public bool cuchillo = false;
 
+
+   
     public void PEREZOSO()
     {
         perezoso = true;
