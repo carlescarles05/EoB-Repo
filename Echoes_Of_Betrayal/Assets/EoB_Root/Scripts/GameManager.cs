@@ -55,6 +55,7 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         _instance = this;
+        DontDestroyOnLoad(gameObject);
     }
 
     public void ChargeScene(string name)
