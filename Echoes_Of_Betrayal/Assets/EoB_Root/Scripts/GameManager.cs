@@ -1,24 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    private static GameManager _instance;
+    public static GameManager _instance;
     public bool perezoso = false;
     public bool vaso = false;
     public bool llaves = false;
     public bool movil = false;
     public bool cuchillo = false;
 
-
-
-    public void Update()
-    {
-       
-    }
 
     public void PEREZOSO()
     {
@@ -57,7 +50,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    private void Awake()
+    public void Awake()
     {
         _instance = this;
         DontDestroyOnLoad(gameObject);

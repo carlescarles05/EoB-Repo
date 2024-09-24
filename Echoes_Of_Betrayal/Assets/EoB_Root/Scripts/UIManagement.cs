@@ -7,14 +7,8 @@ using static UnityEngine.AudioSettings;
 public class UIManagement : MonoBehaviour
 {
 
-    GameManager gameManager;
+    public GameManager gameManager;
 
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
@@ -41,4 +35,5 @@ public class UIManagement : MonoBehaviour
     {
         gameManager.movil = true;
     }
+   
 }
