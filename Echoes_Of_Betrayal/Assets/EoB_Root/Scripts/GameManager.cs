@@ -14,7 +14,12 @@ public class GameManager : MonoBehaviour
     public bool cuchillo = false;
 
 
-   
+
+    public void Update()
+    {
+       
+    }
+
     public void PEREZOSO()
     {
         perezoso = true;

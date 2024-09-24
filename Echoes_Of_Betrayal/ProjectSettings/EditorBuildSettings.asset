@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/EoB_Root/Scenes/PasilloScene.unity
     guid: f7e04b2953a7f1b4d97bb22335bfa6e8
+  - enabled: 1
+    path: Assets/EoB_Root/Scenes/CinematicScene.unity
+    guid: bb0b1f906c38eef4e8c989263acd6535
   m_configObjects: {}
