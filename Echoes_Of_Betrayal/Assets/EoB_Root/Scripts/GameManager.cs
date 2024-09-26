@@ -6,11 +6,16 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public static GameManager _instance;
+
+
+
     public bool perezoso = false;
     public bool vaso = false;
     public bool llaves = false;
     public bool movil = false;
     public bool cuchillo = false;
+
+    public bool allCheck = false;
 
 
     public void PEREZOSO()
@@ -59,6 +64,14 @@ public class GameManager : MonoBehaviour
     public void ChargeScene(string name)
     {
         SceneManager.LoadScene(name);
+    }
+
+    public void Update()
+    {
+        if (perezoso == true && llaves == true && vaso == true && movil == true)
+        {
+            allCheck = true;
+        }
     }
 
 }

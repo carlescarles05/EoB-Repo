@@ -37,10 +37,11 @@ public class UIManagement : MonoBehaviour
     }*/
 
     // Asignar el GameManager desde el Inspector
-    public GameManager gameManager;
+    private GameManager gameManager;
 
     void Start()
     {
+
         // Si el GameManager no se asignó en el Inspector, lo busca en la escena
         if (gameManager == null)
         {
@@ -52,6 +53,7 @@ public class UIManagement : MonoBehaviour
             Debug.LogError("GameManager no encontrado. Asegúrate de que está en la escena.");
         }
     }
+
 
     public void PEREZOSO()
     {
