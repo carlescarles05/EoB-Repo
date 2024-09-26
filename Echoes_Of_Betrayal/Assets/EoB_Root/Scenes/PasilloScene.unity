@@ -778,6 +778,7 @@ GameObject:
   - component: {fileID: 1087426448}
   - component: {fileID: 1087426447}
   - component: {fileID: 1087426451}
+  - component: {fileID: 1087426452}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -882,6 +883,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 381bbc90cf64e7e4db4d37e8a42b14b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
+--- !u!114 &1087426452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1087426446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0da4ecdeaacad6248945f232cb3f7aba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1139480427
@@ -1486,8 +1500,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+      - m_Target: {fileID: 1087426452}
+        m_TargetAssemblyTypeName: SceneManagement, Assembly-CSharp
         m_MethodName: ChargeScene
         m_Mode: 5
         m_Arguments:
@@ -1739,8 +1753,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+      - m_Target: {fileID: 1087426452}
+        m_TargetAssemblyTypeName: SceneManagement, Assembly-CSharp
         m_MethodName: ChargeScene
         m_Mode: 5
         m_Arguments:
