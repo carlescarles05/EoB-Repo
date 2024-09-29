@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class WinText : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField]
+    private GameObject winText;
+
+    private void Start()
     {
-        
+        winText.SetActive(false);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        if (Mirror.locked) 
+        {
+            winText.SetActive(true);
+        }
     }
 }
