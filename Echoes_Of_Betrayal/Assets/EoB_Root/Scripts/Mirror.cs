@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class Mirror : MonoBehaviour
 {
     [SerializeField]
@@ -11,7 +10,7 @@ public class Mirror : MonoBehaviour
 
     private float deltaX, deltaY;
 
-    public static bool locked;
+    public bool locked;
 
     private void Start()
     {
