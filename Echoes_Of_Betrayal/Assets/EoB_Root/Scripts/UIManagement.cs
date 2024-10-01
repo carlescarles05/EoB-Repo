@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -39,6 +40,13 @@ public class UIManagement : MonoBehaviour
     // Asignar el GameManager desde el Inspector
     private GameManager gameManager;
 
+    private GameObject cuchilloGrande;
+    private GameObject llavesGrande;
+    private GameObject perezosoGrande;
+    private GameObject vasoGrande;
+    private GameObject movilGrande;
+
+
     void Start()
     {
 
@@ -60,6 +68,7 @@ public class UIManagement : MonoBehaviour
         if (gameManager != null)
         {
             gameManager.perezoso = true;
+            perezosoGrande.SetActive(true);
         }
     }
 
@@ -68,6 +77,7 @@ public class UIManagement : MonoBehaviour
         if (gameManager != null)
         {
             gameManager.vaso = true;
+            vasoGrande.SetActive(true);
         }
     }
 
@@ -76,6 +86,7 @@ public class UIManagement : MonoBehaviour
         if (gameManager != null)
         {
             gameManager.llaves = true;
+            llavesGrande.SetActive(true);
         }
     }
 
@@ -84,6 +95,16 @@ public class UIManagement : MonoBehaviour
         if (gameManager != null)
         {
             gameManager.movil = true;
+            movilGrande.SetActive(true);
+        }
+    }
+
+    public void CUCHILLO()
+    {
+        if (gameManager != null)
+        {
+            gameManager.cuchillo = true;
+            cuchilloGrande.SetActive(true);
         }
     }
 
