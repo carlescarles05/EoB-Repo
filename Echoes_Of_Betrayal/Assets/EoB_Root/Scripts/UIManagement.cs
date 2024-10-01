@@ -73,7 +73,7 @@ public class UIManagement : MonoBehaviour
     }
     public void PEREZOSOGRANDE()
     {
-       perezosoGrande.SetActive(false);
+        perezosoGrande.SetActive(false);
     }
 
     public void VASO()
