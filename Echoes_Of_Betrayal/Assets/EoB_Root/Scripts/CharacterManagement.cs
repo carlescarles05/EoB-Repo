@@ -29,7 +29,10 @@ public class CharacterManagement : MonoBehaviour
 
     public void POWA()
     {
-
+        if (gameManager != null)
+        {
+            Powa.SetActive(true);
+        }
     }
 
 }
