@@ -9,7 +9,7 @@ public class DialogueManager : MonoBehaviour
     public Text nameText;
     public Text dialogueText;
 
-    public Animator animator;
+    //public Animator animator;
 
     private Queue<string> sentences;
 
@@ -20,7 +20,7 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
-        animator.SetBool("IsOpen", true);
+        //animator.SetBool("IsOpen", true);
 
         nameText.text = dialogue.name;
 
@@ -49,7 +49,7 @@ public class DialogueManager : MonoBehaviour
 
     IEnumerator TypeSentence(string sentence)
     {
-        dialogueText.text = "";
+        dialogueText.text = "AAA";
         foreach (char letter in sentence.ToCharArray())
         {
             dialogueText.text += letter;
@@ -59,6 +59,6 @@ public class DialogueManager : MonoBehaviour
 
     void EndDialogue()
     {
-        animator.SetBool("IsOpen", false);
+       // animator.SetBool("IsOpen", false);
     }
 }
