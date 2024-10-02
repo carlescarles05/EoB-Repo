@@ -35,4 +35,35 @@ public class CharacterManagement : MonoBehaviour
         }
     }
 
+    public void RICK()
+    {
+        if (gameManager != null) 
+        {
+            Rick.SetActive(true);
+        }
+    }
+
+    public void MERY()
+    {
+        if (gameManager != null)
+        {
+            Mery.SetActive(true);
+        }
+    }
+
+    public void FRAN()
+    {
+        if (gameManager != null)
+        {
+            Fran.SetActive(true);
+        }
+    }
+
+    public void KIREI()
+    {
+        if (gameManager != null)
+        {
+            Kirei.SetActive(true);
+        }
+    }
 }
