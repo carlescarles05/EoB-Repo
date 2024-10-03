@@ -24,4 +24,10 @@ public class DialogueTrigger : MonoBehaviour
 
     }
 
+    public void TriggerReset()
+    {
+        button.SetActive(true);
+        continueButton.SetActive(false);
+    }
+
 }

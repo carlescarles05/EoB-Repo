@@ -35,12 +35,21 @@ public class CharacterManagement : MonoBehaviour
         }
     }
 
+    public void POWACLOSE()
+    {
+        Powa.SetActive(false);
+    }
+
     public void RICK()
     {
         if (gameManager != null) 
         {
             Rick.SetActive(true);
         }
+    }
+    public void RICKCLOSE()
+    {
+        Rick.SetActive(false);
     }
 
     public void MERY()
@@ -50,6 +59,10 @@ public class CharacterManagement : MonoBehaviour
             Mery.SetActive(true);
         }
     }
+    public void MERYCLOSE()
+    {
+        Mery.SetActive(false);
+    }
 
     public void FRAN()
     {
@@ -58,6 +71,10 @@ public class CharacterManagement : MonoBehaviour
             Fran.SetActive(true);
         }
     }
+    public void FRANCLOSE()
+    {
+        Fran.SetActive(false);
+    }
 
     public void KIREI()
     {
@@ -65,5 +82,9 @@ public class CharacterManagement : MonoBehaviour
         {
             Kirei.SetActive(true);
         }
+    }
+    public void KIREICLOSE()
+    {
+        Kirei.SetActive(false);
     }
 }
