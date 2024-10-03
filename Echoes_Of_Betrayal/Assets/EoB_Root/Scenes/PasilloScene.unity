@@ -3253,7 +3253,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: {fileID: 1376945370}
-  dialogueText: {fileID: 0}
+  dialogueText: {fileID: 610435553}
 --- !u!1 &1618186479
 GameObject:
   m_ObjectHideFlags: 0

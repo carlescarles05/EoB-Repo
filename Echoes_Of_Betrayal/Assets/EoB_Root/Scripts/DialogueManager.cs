@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using static NewBehaviourScript;
 using UnityEngine.UI;
+using TMPro;
 
 public class DialogueManager : MonoBehaviour
 {
     public Text nameText;
-    public Text dialogueText;
+    public TextMeshProUGUI dialogueText;
 
     //public Animator animator;
 
