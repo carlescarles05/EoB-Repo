@@ -7,8 +7,9 @@ using TMPro;
 
 public class DialogueManager : MonoBehaviour
 {
-    public Text nameText;
+    public TextMeshProUGUI nameText;
     public TextMeshProUGUI dialogueText;
+
 
     //public Animator animator;
 
@@ -50,7 +51,7 @@ public class DialogueManager : MonoBehaviour
 
     IEnumerator TypeSentence(string sentence)
     {
-        dialogueText.text = "AAA";
+
         foreach (char letter in sentence.ToCharArray())
         {
             dialogueText.text += letter;
@@ -62,4 +63,8 @@ public class DialogueManager : MonoBehaviour
     {
        // animator.SetBool("IsOpen", false);
     }
+
+
+
+    
 }
