@@ -912,6 +912,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1186349233}
   - {fileID: 979436731}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2173,7 +2174,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1162174133}
         m_TargetAssemblyTypeName: CharacterManagement, Assembly-CSharp
-        m_MethodName: POWACLOSE
+        m_MethodName: MERYCLOSE
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2684,7 +2685,7 @@ GameObject:
   - component: {fileID: 1012913289}
   - component: {fileID: 1012913288}
   m_Layer: 5
-  m_Name: Powa_Aswer2
+  m_Name: Mery_Aswer2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2723,7 +2724,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Powa
+    name: Mery
     sentences:
     - Asa
     - tupu
@@ -3084,7 +3085,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1186349233}
   - {fileID: 1943336050}
   - {fileID: 1300028927}
   - {fileID: 2109911711}
@@ -3419,7 +3419,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Powa: {fileID: 1610699856}
   Rick: {fileID: 0}
-  Mery: {fileID: 0}
+  Mery: {fileID: 714845989}
   Fran: {fileID: 292680046}
   Kirei: {fileID: 0}
 --- !u!114 &1162174134
@@ -3475,17 +3475,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1186349232}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.1192052, y: 2.1192052, z: 2.1192052}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1087426450}
+  m_Father: {fileID: 417875820}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 1074.437, y: 683.44366}
+  m_SizeDelta: {x: 0.00012207031, y: 158.14575}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1186349234
 Animator:
@@ -3632,7 +3632,7 @@ GameObject:
   - component: {fileID: 1243553570}
   - component: {fileID: 1243553569}
   m_Layer: 5
-  m_Name: Powa_Aswer1
+  m_Name: Mery_Aswer1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3671,7 +3671,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Powa
+    name: Mery
     sentences:
     - Sas
   manager: {fileID: 0}
@@ -3799,14 +3799,14 @@ RectTransform:
   m_GameObject: {fileID: 1290630758}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.045, y: 0.045, z: 0.045}
+  m_LocalScale: {x: 0.042215854, y: 0.042215854, z: 0.042215854}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2109911711}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -952.27, y: -542.76}
+  m_AnchoredPosition: {x: -952.27, y: -542.86}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1290630760
@@ -4331,7 +4331,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1162174133}
         m_TargetAssemblyTypeName: CharacterManagement, Assembly-CSharp
-        m_MethodName: POWACLOSE
+        m_MethodName: FRANCLOSE
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
