@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 120783068}
   - component: {fileID: 120783067}
   m_Layer: 5
-  m_Name: LLaves
+  m_Name: LLavesGrandes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -671,7 +671,7 @@ GameObject:
   - component: {fileID: 369532583}
   - component: {fileID: 369532582}
   m_Layer: 5
-  m_Name: Llaves
+  m_Name: "LlavesPeque\xF1as"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -920,7 +920,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &417875817
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -998,6 +998,7 @@ RectTransform:
   m_Children:
   - {fileID: 1186349233}
   - {fileID: 979436731}
+  - {fileID: 676514518}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1808,7 +1809,7 @@ RectTransform:
   m_Children:
   - {fileID: 120783066}
   - {fileID: 1037325790}
-  m_Father: {fileID: 1618186480}
+  m_Father: {fileID: 417875820}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2923,7 +2924,7 @@ GameObject:
   - component: {fileID: 1037325792}
   - component: {fileID: 1037325791}
   m_Layer: 5
-  m_Name: Cuchillo
+  m_Name: CuchilloGrande
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3093,7 +3094,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1087426447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4943,7 +4944,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1672907570}
-  - {fileID: 676514518}
   m_Father: {fileID: 1087426450}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -6523,7 +6523,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1943949725
 Transform:
   m_ObjectHideFlags: 0
