@@ -3243,8 +3243,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraSpeed: 0.5
-  minCameraX: -5
-  maxCameraX: 5
+  minCameraX: -4
+  maxCameraX: 4
 --- !u!1 &1455579580
 GameObject:
   m_ObjectHideFlags: 0
