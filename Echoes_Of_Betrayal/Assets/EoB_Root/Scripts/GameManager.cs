@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
     public bool movil = false;
     public bool cuchillo = false;
 
-    public bool allCheck = false;
+    public bool allCheckItems = false;
 
 
     public void PEREZOSO()
@@ -70,7 +70,7 @@ public class GameManager : MonoBehaviour
     {
         if (perezoso == true && llaves == true && vaso == true && movil == true)
         {
-            allCheck = true;
+            allCheckItems = true;
         }
     }
 

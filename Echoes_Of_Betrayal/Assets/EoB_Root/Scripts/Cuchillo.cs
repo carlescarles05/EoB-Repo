@@ -24,7 +24,7 @@ public class Cuchillo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GameManager.Instance.allCheck == true)
+        if (GameManager.Instance.allCheckItems == true)
                 {
             myImage.enabled = true;
             myButton.interactable = true;
