@@ -9,8 +9,6 @@ public class Cuchillo : MonoBehaviour
     public Image myImage;
     public Button myButton;
 
-    //public GameObject casilla;
-
 
     void Start()
     {
