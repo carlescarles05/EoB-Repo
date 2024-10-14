@@ -27,6 +27,14 @@ public class CharacterManagement : MonoBehaviour
         }
     }
 
+    private void Update()
+    {
+        if (gameManager.secondPhase == true)
+        {
+
+        }
+    }
+
     public void POWA()
     {
         if (gameManager != null)
@@ -50,6 +58,7 @@ public class CharacterManagement : MonoBehaviour
     public void RICKCLOSE()
     {
         Rick.SetActive(false);
+        gameManager.rickDialogueClose = true;
     }
 
     public void MERY()
@@ -87,4 +96,6 @@ public class CharacterManagement : MonoBehaviour
     {
         Kirei.SetActive(false);
     }
+
+    
 }

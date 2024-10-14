@@ -9,7 +9,7 @@ public class Cuchillo : MonoBehaviour
     public Image myImage;
     public Button myButton;
 
-    //  public GameObject casilla;
+    //public GameObject casilla;
 
 
     void Start()
@@ -21,10 +21,9 @@ public class Cuchillo : MonoBehaviour
         
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (GameManager.Instance.allCheckItems == true)
+        if (GameManager.Instance.allCheckItems == true && GameManager.Instance.rickDialogueClose == true)
                 {
             myImage.enabled = true;
             myButton.interactable = true;

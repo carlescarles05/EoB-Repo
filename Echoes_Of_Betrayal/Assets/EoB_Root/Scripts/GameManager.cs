@@ -8,7 +8,6 @@ public class GameManager : MonoBehaviour
     public static GameManager _instance;
 
 
-
     public bool perezoso = false;
     public bool vaso = false;
     public bool llaves = false;
@@ -16,7 +15,9 @@ public class GameManager : MonoBehaviour
     public bool cuchillo = false;
 
     public bool allCheckItems = false;
-
+    public bool firstPhase = true;
+    public bool secondPhase = false;
+    public bool rickDialogueClose = false;
 
     public void PEREZOSO()
     {
@@ -41,6 +42,8 @@ public class GameManager : MonoBehaviour
     public void CUCHILLO()
     {
         cuchillo = true;
+        secondPhase = true;
+        firstPhase = false;
     }
 
     public static GameManager Instance
@@ -73,5 +76,7 @@ public class GameManager : MonoBehaviour
             allCheckItems = true;
         }
     }
+
+    
 
 }
