@@ -46,12 +46,12 @@ public class UIManagement : MonoBehaviour
     public GameObject vasoGrande;
     public GameObject movilGrande;
 
-    private CharacterManagement characterManagement;
+    
 
 
     void Start()
     {
-        characterManagement = GetComponent<CharacterManagement>();
+        
 
         // Si el GameManager no se asignó en el Inspector, lo busca en la escena
         if (gameManager == null)
