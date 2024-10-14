@@ -46,9 +46,12 @@ public class UIManagement : MonoBehaviour
     public GameObject vasoGrande;
     public GameObject movilGrande;
 
+    private CharacterManagement characterManagement;
+
 
     void Start()
     {
+        characterManagement = GetComponent<CharacterManagement>();
 
         // Si el GameManager no se asignó en el Inspector, lo busca en la escena
         if (gameManager == null)
@@ -61,6 +64,8 @@ public class UIManagement : MonoBehaviour
             Debug.LogError("GameManager no encontrado. Asegúrate de que está en la escena.");
         }
     }
+
+
 
 
     public void PEREZOSO()
@@ -126,6 +131,7 @@ public class UIManagement : MonoBehaviour
     public void CUCHILLOGRANDE()
     {
         cuchilloGrande.SetActive(false);
+        gameManager.secondPhase = true;
     }
 
 }

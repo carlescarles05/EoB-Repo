@@ -39,5 +39,6 @@ public class Timer : MonoBehaviour
     void TimerEnded()
     {
         Debug.Log("¡El tiempo se ha acabado!");
+        
     }
 }

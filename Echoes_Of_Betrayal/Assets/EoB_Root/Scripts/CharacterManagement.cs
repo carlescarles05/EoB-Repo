@@ -12,6 +12,8 @@ public class CharacterManagement : MonoBehaviour
     public GameObject Fran;
     public GameObject Kirei;
 
+    public GameObject contenedorCharacter;
+
     void Start()
     {
 

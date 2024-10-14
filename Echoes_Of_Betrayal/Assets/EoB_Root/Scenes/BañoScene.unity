@@ -3203,6 +3203,7 @@ MonoBehaviour:
   Mery: {fileID: 0}
   Fran: {fileID: 0}
   Kirei: {fileID: 185831606}
+  contenedorCharacter: {fileID: 1101391058}
 --- !u!114 &1326359848
 MonoBehaviour:
   m_ObjectHideFlags: 0

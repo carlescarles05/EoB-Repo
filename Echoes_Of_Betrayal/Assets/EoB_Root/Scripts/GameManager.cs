@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public static GameManager _instance;
-
+    private CharacterManagement characterManagement;
 
     public bool perezoso = false;
     public bool vaso = false;
@@ -18,6 +18,13 @@ public class GameManager : MonoBehaviour
     public bool firstPhase = true;
     public bool secondPhase = false;
     public bool rickDialogueClose = false;
+
+    
+
+    private void Start()
+    {
+        characterManagement = GetComponent<CharacterManagement>();
+    }
 
     public void PEREZOSO()
     {
@@ -75,8 +82,10 @@ public class GameManager : MonoBehaviour
         {
             allCheckItems = true;
         }
+        if (secondPhase == true) 
+        {
+            characterManagement.contenedorCharacter.SetActive(true);
+        }
     }
-
-    
 
 }
