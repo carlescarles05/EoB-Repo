@@ -94,7 +94,7 @@ public class UIManagement : MonoBehaviour
         if (gameManager != null)
         {
             gameManager.llaves = true;
-            llavesGrande.SetActive(true);
+            llavesGrande.SetActive(true);s
         }
     }
     public void LLAVESGRANDE()
