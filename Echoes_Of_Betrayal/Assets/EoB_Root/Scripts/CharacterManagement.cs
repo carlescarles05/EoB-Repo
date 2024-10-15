@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class CharacterManagement : MonoBehaviour
 {
-    private GameManager gameManager;
 
     public GameObject Powa;
     public GameObject Rick;
@@ -17,32 +16,21 @@ public class CharacterManagement : MonoBehaviour
     void Start()
     {
 
-        // Si el GameManager no se asignó en el Inspector, lo busca en la escena
-        if (gameManager == null)
-        {
-            gameManager = FindObjectOfType<GameManager>(); // Busca el GameManager en toda la escena
-        }
-
-        if (gameManager == null)
-        {
-            Debug.LogError("GameManager no encontrado. Asegúrate de que está en la escena.");
-        }
+        
     }
 
     private void Update()
     {
-        if (gameManager.secondPhase == true)
+        if (GameManager.Instance.secondPhase == true)
         {
-
+            contenedorCharacter.SetActive(true);
         }
     }
 
     public void POWA()
     {
-        if (gameManager != null)
-        {
             Powa.SetActive(true);
-        }
+       
     }
 
     public void POWACLOSE()
@@ -52,23 +40,19 @@ public class CharacterManagement : MonoBehaviour
 
     public void RICK()
     {
-        if (gameManager != null) 
-        {
             Rick.SetActive(true);
-        }
+        
     }
     public void RICKCLOSE()
     {
         Rick.SetActive(false);
-        gameManager.rickDialogueClose = true;
+        GameManager.Instance.rickDialogueClose = true;
     }
 
     public void MERY()
     {
-        if (gameManager != null)
-        {
             Mery.SetActive(true);
-        }
+        
     }
     public void MERYCLOSE()
     {
@@ -77,10 +61,8 @@ public class CharacterManagement : MonoBehaviour
 
     public void FRAN()
     {
-        if (gameManager != null)
-        {
             Fran.SetActive(true);
-        }
+        
     }
     public void FRANCLOSE()
     {
@@ -89,10 +71,8 @@ public class CharacterManagement : MonoBehaviour
 
     public void KIREI()
     {
-        if (gameManager != null)
-        {
             Kirei.SetActive(true);
-        }
+        
     }
     public void KIREICLOSE()
     {

@@ -5,8 +5,20 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    #region Singleton
     public static GameManager _instance;
-    private CharacterManagement characterManagement;
+    public static GameManager Instance
+    {
+        get
+        {
+            if (_instance == null)
+            {
+                Debug.LogError("GameManager is null");
+            }
+            return _instance;
+        }
+    }
+    #endregion
 
     public bool perezoso = false;
     public bool vaso = false;
@@ -19,11 +31,25 @@ public class GameManager : MonoBehaviour
     public bool secondPhase = false;
     public bool rickDialogueClose = false;
 
-    
+   
+
+    public void Awake()
+    {
+        _instance = this;
+        DontDestroyOnLoad(gameObject);
+    }
 
     private void Start()
     {
-        characterManagement = GetComponent<CharacterManagement>();
+      
+    }
+    public void Update()
+    {
+        if (perezoso == true && llaves == true && vaso == true && movil == true)
+        {
+            allCheckItems = true;
+        }
+       
     }
 
     public void PEREZOSO()
@@ -53,39 +79,13 @@ public class GameManager : MonoBehaviour
         firstPhase = false;
     }
 
-    public static GameManager Instance
-    {
-        get
-        {
-            if (_instance == null)
-            {
-                Debug.LogError("GameManager is null");
-            }
-            return _instance;
-        }
-    }
-
-    public void Awake()
-    {
-        _instance = this;
-        DontDestroyOnLoad(gameObject);
-    }
+   
 
     public void ChargeScene(string name)
     {
         SceneManager.LoadScene(name);
     }
 
-    public void Update()
-    {
-        if (perezoso == true && llaves == true && vaso == true && movil == true)
-        {
-            allCheckItems = true;
-        }
-        if (secondPhase == true) 
-        {
-            characterManagement.contenedorCharacter.SetActive(true);
-        }
-    }
+  
 
 }
