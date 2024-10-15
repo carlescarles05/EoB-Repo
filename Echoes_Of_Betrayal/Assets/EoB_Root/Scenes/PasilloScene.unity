@@ -410,7 +410,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.000061035156}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &120783067
@@ -1012,7 +1012,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &292680047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4690,7 +4690,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 133, y: -14.900024}
+  m_AnchoredPosition: {x: 133, y: -14.899902}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &977301219
@@ -5372,26 +5372,21 @@ MonoBehaviour:
   dialogue:
     name: Fran
     sentences:
-    - "FRAN:\n\n*Sonido extra\xF1o* Vaya pintas llevas..."
-    - "TU:\n\nEm... \xBFGracias?"
-    - 'TU:
+    - "TU:\n\n\xBFConocias a Curry?"
+    - 'FRAN:
 
 
-      Lo dicho, lo conocias o no'
+      Vaya pintas llevas...'
+    - "TU:\n\nEmm... \xBFGracias?"
+    - "TU:\n\nLo dicho \xBFLo conoc\xEDas o no?"
     - 'FRAN:
 
 
       Eramos amigos de la infancia...'
-    - "FRAN:\n\nHab\xEDa quedado con \xE9l antes de la fiesta"
-    - "TU:\n\n\xBFY como lo notaste, el estaba raro?"
-    - 'FRAN:
-
-
-      En ese momento no se le veia con preocupaciones'
-    - 'FRAN:
-
-
-      Adios, siento no ayudar'
+    - "FRAN: \n\nHab\xEDa quedado con \xE9l antes de la fiesta"
+    - "TU:\n\n\xBFY como lo notaste, estaba raro?"
+    - "FRAN:\n\nEn ese momento no se le ve\xEDa con preocupaciones"
+    - "FRAN:\n\nAdi\xF3s, siento no ayudar."
   manager: {fileID: 0}
   button: {fileID: 1517492859}
   continueButton: {fileID: 1921697006}
@@ -5719,7 +5714,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 133, y: -14.900024}
+  m_AnchoredPosition: {x: 133, y: -14.899902}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1194809672
@@ -5957,6 +5952,7 @@ MonoBehaviour:
     sentences:
     - "MERY: \n\nS\xED, lo he comprado en Florimark"
     - "MERY: \n\n\xBFTe gusta?"
+    - "MERY: \n\nCuando quieras te ense\xF1o donde est\xE1."
   manager: {fileID: 0}
   button: {fileID: 621464155}
   continueButton: {fileID: 1317864729}
@@ -6174,7 +6170,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.000061035156}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1280325928
@@ -7441,14 +7437,8 @@ MonoBehaviour:
 
 
       ...'
-    - 'TU:
-
-
-      Este es tu llavero verdad?'
-    - 'POWA:
-
-
-      Si lo es! Donde estaba?'
+    - "TU:\n\n\xBFEste es tu llavero verdad?"
+    - "POWA:\n\n\xA1Si lo es! Donde estaba?"
     - 'TU:
 
 
@@ -7995,9 +7985,14 @@ MonoBehaviour:
   dialogue:
     name: Fran
     sentences:
-    - "\xBFDe donde has sacado eso?"
-    - "De la papelera del ba\xF1o \xBFsabes como llego ahi?"
-    - Ni idea, es del muerto
+    - "FRAN:\n\n\xBFDe donde has sacado eso?"
+    - "TU:\n\nDe la papelera del ba\xF1o \xBFSabes como lleg\xF3 ah\xED?"
+    - 'FRAN:
+
+
+      Ni idea, era el de Curry'
+    - "FRAN:\n\nAl parecer me cit\xF3 aqu\xED, seguramente ten\xEDa urgencia de contarme
+      algo..."
   manager: {fileID: 0}
   button: {fileID: 1517492859}
   continueButton: {fileID: 1921697006}
