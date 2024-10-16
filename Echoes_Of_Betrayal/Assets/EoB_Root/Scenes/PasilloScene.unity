@@ -1012,7 +1012,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &292680047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3660,7 +3660,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &714845990
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5369,26 +5369,16 @@ MonoBehaviour:
   dialogue:
     name: Fran
     sentences:
-    - "FRAN:\n\n*Sonido extra\xF1o* Vaya pintas llevas..."
-    - "TU:\n\nEm... \xBFGracias?"
-    - 'TU:
+    - 'FRAN:
 
 
-      Lo dicho, lo conocias o no'
+      Vaya pintas llevas...'
+    - "TU:\n\nEmmm... \xBFGracias?"
     - 'FRAN:
 
 
       Eramos amigos de la infancia...'
     - "FRAN:\n\nHab\xEDa quedado con \xE9l antes de la fiesta"
-    - "TU:\n\n\xBFY como lo notaste, el estaba raro?"
-    - 'FRAN:
-
-
-      En ese momento no se le veia con preocupaciones'
-    - 'FRAN:
-
-
-      Adios, siento no ayudar'
   manager: {fileID: 0}
   button: {fileID: 1517492859}
   continueButton: {fileID: 1921697006}
@@ -8591,7 +8581,7 @@ RectTransform:
   m_GameObject: {fileID: 1736921809}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.4523374, z: 1}
+  m_LocalScale: {x: 0.92431164, y: 0.3609704, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1133401980}
@@ -8623,8 +8613,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\xBFConoc\xEDas a Curry?"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 370304b5abca7b049bf6348e4d9b1a35, type: 2}
+  m_sharedMaterial: {fileID: 1427122281660819956, guid: 370304b5abca7b049bf6348e4d9b1a35, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8887,15 +8877,15 @@ RectTransform:
   m_GameObject: {fileID: 1819189584}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.83003, y: 0.33833078, z: 1}
+  m_LocalScale: {x: 0.6354324, y: 0.34645072, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1630357559}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 1.4000015, y: 0.48474026}
+  m_SizeDelta: {x: 81.70869, y: 34.32556}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1819189586
 MonoBehaviour:
@@ -8919,8 +8909,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Encontr\xE9 este tel\xE9fono \xBFEs tuyo?"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 370304b5abca7b049bf6348e4d9b1a35, type: 2}
+  m_sharedMaterial: {fileID: 1427122281660819956, guid: 370304b5abca7b049bf6348e4d9b1a35, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9034,8 +9024,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 370304b5abca7b049bf6348e4d9b1a35, type: 2}
+  m_sharedMaterial: {fileID: 1427122281660819956, guid: 370304b5abca7b049bf6348e4d9b1a35, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
