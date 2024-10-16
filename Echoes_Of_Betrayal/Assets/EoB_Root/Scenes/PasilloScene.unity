@@ -1012,7 +1012,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &292680047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7979,11 +7979,8 @@ MonoBehaviour:
     name: Fran
     sentences:
     - "FRAN:\n\n\xBFDe donde has sacado eso?"
-    - "TU:\n\nDe la papelera del ba\xF1o \xBFsabes como llego ahi?"
-    - 'FRAN:
-
-
-      Ni idea, es del muerto'
+    - "TU:\n\nDe la papelera del ba\xF1o"
+    - "FRAN:\n\nEra de Curry, no s\xE9 como pudo terminar ah\xED."
   manager: {fileID: 0}
   button: {fileID: 1517492859}
   continueButton: {fileID: 1921697006}
