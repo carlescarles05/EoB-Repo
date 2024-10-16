@@ -410,7 +410,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.000061035156}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &120783067
@@ -1012,7 +1012,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &292680047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2007,15 +2007,15 @@ RectTransform:
   m_GameObject: {fileID: 442280921}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.7957109, y: 0.36024934, z: 1}
+  m_LocalScale: {x: 0.6479499, y: 0.23399712, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1243553568}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -1.699997, y: 0.8999996}
+  m_SizeDelta: {x: 40.88943, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &442280923
 MonoBehaviour:
@@ -2039,8 +2039,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\xBFESTE COLOR DE PINTALABIOS NO SER\xC1 TUYO?"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 370304b5abca7b049bf6348e4d9b1a35, type: 2}
+  m_sharedMaterial: {fileID: 1427122281660819956, guid: 370304b5abca7b049bf6348e4d9b1a35, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2309,7 +2309,7 @@ RectTransform:
   m_GameObject: {fileID: 507787133}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.30108023, z: 1}
+  m_LocalScale: {x: 0.74998, y: 0.22881195, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1987547210}
@@ -2341,8 +2341,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\xBFEl llavero es de tu mochila, No?"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 370304b5abca7b049bf6348e4d9b1a35, type: 2}
+  m_sharedMaterial: {fileID: 1427122281660819956, guid: 370304b5abca7b049bf6348e4d9b1a35, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2879,8 +2879,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 370304b5abca7b049bf6348e4d9b1a35, type: 2}
+  m_sharedMaterial: {fileID: 1427122281660819956, guid: 370304b5abca7b049bf6348e4d9b1a35, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3113,7 +3113,7 @@ RectTransform:
   m_GameObject: {fileID: 610435551}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.23119648, z: 1}
+  m_LocalScale: {x: 0.84997, y: 0.18495256, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1512147171}
@@ -3145,8 +3145,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\xBFC\xF3mo acabo tu llavero ah\xED?"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 370304b5abca7b049bf6348e4d9b1a35, type: 2}
+  m_sharedMaterial: {fileID: 1427122281660819956, guid: 370304b5abca7b049bf6348e4d9b1a35, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4013,15 +4013,15 @@ RectTransform:
   m_GameObject: {fileID: 839630385}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.53998, z: 1}
+  m_LocalScale: {x: 0.61995, y: 0.307821, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1012913287}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 4.7, y: 0.5}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 1.9000015, y: 0.5}
+  m_SizeDelta: {x: 15.67812, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &839630387
 MonoBehaviour:
@@ -4045,8 +4045,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\xBFES TU VASO?"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 370304b5abca7b049bf6348e4d9b1a35, type: 2}
+  m_sharedMaterial: {fileID: 1427122281660819956, guid: 370304b5abca7b049bf6348e4d9b1a35, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4106,7 +4106,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 5.1108403, w: 0}
+  m_margin: {x: 0, y: 0, z: 16.565882, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -4973,16 +4973,13 @@ MonoBehaviour:
   dialogue:
     name: Mery
     sentences:
-    - "MERY: \n\nNo, es el vaso de Curry"
-    - "T\xDA:\n\n\xBFY por qu\xE9 lo tienes t\xFA? Me parece un poco raro..."
-    - "MERY:\n\nMe lo di\xF3 porque se ten\xEDa que ir al ba\xF1o\t"
-    - "TU:\n\n\xBFSabes que pudo pasar?"
-    - "MARY:\n\nNop, lo siento. Aunque creo que Powa estaba por ah\xED"
-    - 'TU:
+    - "TU:\n\n\xBFEs tu vaso?"
+    - 'MERY:
 
 
-      Ok... Gracias'
-    - "MERY:\n\n\xA1De nada! Chau"
+      No, es el vaso de Curry'
+    - "TU:\n\n\xBFPor qu\xE9 lo tienes tu? Me parece un poco raro..."
+    - "MERY:\n\nMe lo di\xF3 porqu\xE9 ten\xEDa que ir al ba\xF1o y le d\xED un sorbo."
   manager: {fileID: 0}
   button: {fileID: 621464155}
   continueButton: {fileID: 1317864729}
@@ -5372,26 +5369,16 @@ MonoBehaviour:
   dialogue:
     name: Fran
     sentences:
-    - "FRAN:\n\n*Sonido extra\xF1o* Vaya pintas llevas..."
-    - "TU:\n\nEm... \xBFGracias?"
-    - 'TU:
+    - 'FRAN:
 
 
-      Lo dicho, lo conocias o no'
+      Vaya pintas llevas...'
+    - "TU:\n\nEmmm... \xBFGracias?"
     - 'FRAN:
 
 
       Eramos amigos de la infancia...'
     - "FRAN:\n\nHab\xEDa quedado con \xE9l antes de la fiesta"
-    - "TU:\n\n\xBFY como lo notaste, el estaba raro?"
-    - 'FRAN:
-
-
-      En ese momento no se le veia con preocupaciones'
-    - 'FRAN:
-
-
-      Adios, siento no ayudar'
   manager: {fileID: 0}
   button: {fileID: 1517492859}
   continueButton: {fileID: 1921697006}
@@ -5955,8 +5942,10 @@ MonoBehaviour:
   dialogue:
     name: Mery
     sentences:
-    - "MERY: \n\nS\xED, lo he comprado en Florimark"
-    - "MERY: \n\n\xBFTe gusta?"
+    - "MERY: \n\nHoli"
+    - "TU:\n\n\xBFEste color de pintalabios es tuyo?"
+    - "MERY:\n\nS\xED, lo compr\xE9 en Florimark \xBFTe gusta?"
+    - "MERY:\n\nCuando quieras te ense\xF1o donde est\xE1."
   manager: {fileID: 0}
   button: {fileID: 621464155}
   continueButton: {fileID: 1317864729}
@@ -6174,7 +6163,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.000061035156}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1280325928
@@ -7441,19 +7430,13 @@ MonoBehaviour:
 
 
       ...'
-    - 'TU:
-
-
-      Este es tu llavero verdad?'
-    - 'POWA:
-
-
-      Si lo es! Donde estaba?'
+    - "TU:\n\n\xBFEste es tu llavero verdad?"
+    - "POWA:\n\n\xA1Si lo es! Donde estaba?"
     - 'TU:
 
 
       Al lado del cadaver'
-    - "TU:\n\nNos desviamos del tema, dime como acabo tu llavero all\xED"
+    - "TU:\n\n\xBFComo acab\xF3 tu llavero ah\xED?"
     - "POWA:\n\nSe fue la luz y me asust\xE9, la cuerda del llavero esta bastante
       desgastada y se debi\xF3 romper cuando me sorprend\xED"
     - 'POWA:
@@ -8393,8 +8376,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 370304b5abca7b049bf6348e4d9b1a35, type: 2}
+  m_sharedMaterial: {fileID: 1427122281660819956, guid: 370304b5abca7b049bf6348e4d9b1a35, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8598,7 +8581,7 @@ RectTransform:
   m_GameObject: {fileID: 1736921809}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.4523374, z: 1}
+  m_LocalScale: {x: 0.92431164, y: 0.3609704, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1133401980}
@@ -8630,8 +8613,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\xBFConoc\xEDas a Curry?"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 370304b5abca7b049bf6348e4d9b1a35, type: 2}
+  m_sharedMaterial: {fileID: 1427122281660819956, guid: 370304b5abca7b049bf6348e4d9b1a35, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8894,15 +8877,15 @@ RectTransform:
   m_GameObject: {fileID: 1819189584}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.83003, y: 0.33833078, z: 1}
+  m_LocalScale: {x: 0.6354324, y: 0.34645072, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1630357559}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 1.4000015, y: 0.48474026}
+  m_SizeDelta: {x: 81.70869, y: 34.32556}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1819189586
 MonoBehaviour:
@@ -8926,8 +8909,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Encontr\xE9 este tel\xE9fono \xBFEs tuyo?"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 370304b5abca7b049bf6348e4d9b1a35, type: 2}
+  m_sharedMaterial: {fileID: 1427122281660819956, guid: 370304b5abca7b049bf6348e4d9b1a35, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9041,8 +9024,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 370304b5abca7b049bf6348e4d9b1a35, type: 2}
+  m_sharedMaterial: {fileID: 1427122281660819956, guid: 370304b5abca7b049bf6348e4d9b1a35, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9868,16 +9851,9 @@ MonoBehaviour:
   dialogue:
     name: Powa
     sentences:
-    - "POWA: \n\nEhh.. Si"
-    - 'POWA:
-
-
-      Simplemente pasaba por al lado y se debio caer'
-    - 'POWA:
-
-
-      No puedo decir mas'
-    - "POWA:\n\nAdi\xF3s."
+    - "TU:\n\n\xBFConoces a la v\xEDctima?"
+    - "POWA:\n\nSi, eramos compa\xF1eros del a\xF1o pasado, nunca nos hemos llevado
+      bien"
   manager: {fileID: 0}
   button: {fileID: 416869041}
   continueButton: {fileID: 241030275}
