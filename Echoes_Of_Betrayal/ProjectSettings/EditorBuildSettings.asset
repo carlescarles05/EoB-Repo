@@ -6,13 +6,19 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/EoB_Root/Scenes/MenuScene.unity
+    guid: e0e75f5607b1902479079c13efc7696c
+  - enabled: 1
+    path: Assets/EoB_Root/Scenes/CinematicScene.unity
+    guid: bb0b1f906c38eef4e8c989263acd6535
+  - enabled: 1
     path: Assets/EoB_Root/Scenes/SceneTest/SceneTest.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
     path: Assets/EoB_Root/Scenes/SceneTest/CarlesScene.unity
     guid: 1318e09c251631a419749b10cf79a3c9
   - enabled: 1
-    path: Assets/EoB_Root/Scenes/SceneTest/EduScene.unity
+    path: Assets/EoB_Root/Scenes/MirrorScene.unity
     guid: a581923d75182074ab0077932fcbd926
   - enabled: 1
     path: "Assets/EoB_Root/Scenes/Ba\xF1oScene.unity"
@@ -23,7 +29,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/EoB_Root/Scenes/PasilloScene.unity
     guid: f7e04b2953a7f1b4d97bb22335bfa6e8
-  - enabled: 1
-    path: Assets/EoB_Root/Scenes/CinematicScene.unity
-    guid: bb0b1f906c38eef4e8c989263acd6535
   m_configObjects: {}
