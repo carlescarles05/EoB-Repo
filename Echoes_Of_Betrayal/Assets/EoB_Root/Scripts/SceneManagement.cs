@@ -14,4 +14,12 @@ public class SceneManagement : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void ChangeMirror()
+    {
+        if (GameManager.Instance.secondPhase == true)        
+        {
+            SceneManager.LoadScene(4);
+        }
+    }
 }
