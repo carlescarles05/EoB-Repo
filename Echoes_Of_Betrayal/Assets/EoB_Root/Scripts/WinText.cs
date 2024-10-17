@@ -5,13 +5,13 @@ using UnityEngine;
 public class WinText : MonoBehaviour
 {
     [SerializeField]
-    private GameObject winText;
+    private GameObject gameObject;
 
     private Mirror[] mirrors; // Para almacenar todas las piezas del puzzle
 
     private void Start()
     {
-        winText.SetActive(false);
+        gameObject.SetActive(false);
         // Encuentra todas las piezas (Mirror) en la escena
         mirrors = FindObjectsOfType<Mirror>();
     }
@@ -32,7 +32,7 @@ public class WinText : MonoBehaviour
         // Si todas las piezas están bloqueadas, activa el texto de victoria
         if (allLocked)
         {
-            winText.SetActive(true);
+            gameObject.SetActive(true);
         }
     }
 }

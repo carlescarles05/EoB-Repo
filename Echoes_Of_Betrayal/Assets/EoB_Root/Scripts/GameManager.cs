@@ -39,10 +39,7 @@ public class GameManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-    private void Start()
-    {
-      
-    }
+  
     public void Update()
     {
         if (perezoso == true && llaves == true && vaso == true && movil == true)

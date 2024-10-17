@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 public class Mirror : MonoBehaviour
 {
     [SerializeField]
@@ -11,6 +12,10 @@ public class Mirror : MonoBehaviour
     private float deltaX, deltaY;
 
     public bool locked;
+
+    [Header("Cinematicas")]
+    [SerializeField] GameObject cineStart;
+    [SerializeField] GameObject cineFinish;
 
     private void Start()
     {
@@ -48,10 +53,12 @@ public class Mirror : MonoBehaviour
                     }
                     else
                     {
-                        transform.position = new Vector2(initialPosition.x, initialPosition.y);                   
+                        transform.position = new Vector2(initialPosition.x, initialPosition.y);
                     }
                     break;
             }
         }
     }
 }
+
+    

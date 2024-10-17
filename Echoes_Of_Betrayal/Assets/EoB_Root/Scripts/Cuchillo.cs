@@ -22,7 +22,7 @@ public class Cuchillo : MonoBehaviour
     void Update()
     {
         if (GameManager.Instance.allCheckItems == true && GameManager.Instance.rickDialogueClose == true)
-                {
+        {
             myImage.enabled = true;
             myButton.interactable = true;
         }
