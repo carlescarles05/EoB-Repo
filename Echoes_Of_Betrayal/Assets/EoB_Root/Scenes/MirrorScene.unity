@@ -306,8 +306,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mirrorPlace: {fileID: 1030047587}
   locked: 0
-  cineStart: {fileID: 0}
-  cineFinish: {fileID: 0}
 --- !u!61 &357421008
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -537,8 +535,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mirrorPlace: {fileID: 668702186}
   locked: 0
-  cineStart: {fileID: 0}
-  cineFinish: {fileID: 0}
 --- !u!61 &558163023
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -684,8 +680,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mirrorPlace: {fileID: 1228895340}
   locked: 0
-  cineStart: {fileID: 0}
-  cineFinish: {fileID: 0}
 --- !u!61 &567709619
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -999,8 +993,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mirrorPlace: {fileID: 587211683}
   locked: 0
-  cineStart: {fileID: 0}
-  cineFinish: {fileID: 0}
 --- !u!61 &614541871
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1927,8 +1919,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mirrorPlace: {fileID: 1348131560}
   locked: 0
-  cineStart: {fileID: 0}
-  cineFinish: {fileID: 0}
 --- !u!1 &1151818693
 GameObject:
   m_ObjectHideFlags: 0
@@ -2149,7 +2139,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cineStart: {fileID: 2137534054}
-  cineFinish: {fileID: 0}
+  cineFinish: {fileID: 1466282279}
 --- !u!4 &1309183572
 Transform:
   m_ObjectHideFlags: 0
@@ -2734,6 +2724,72 @@ VideoPlayer:
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
+--- !u!1 &1466282279
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1466282281}
+  - component: {fileID: 1466282280}
+  m_Layer: 0
+  m_Name: EspejoFInale
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!328 &1466282280
+VideoPlayer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466282279}
+  m_Enabled: 1
+  m_VideoClip: {fileID: 32900000, guid: eee4f4b27602a73439a8c0de713b39a6, type: 3}
+  m_TargetCameraAlpha: 1
+  m_TargetCamera3DLayout: 0
+  m_TargetCamera: {fileID: 1343813430}
+  m_TargetTexture: {fileID: 0}
+  m_TimeReference: 0
+  m_TargetMaterialRenderer: {fileID: 0}
+  m_TargetMaterialProperty: <noninit>
+  m_RenderMode: 0
+  m_AspectRatio: 2
+  m_DataSource: 0
+  m_TimeUpdateMode: 2
+  m_PlaybackSpeed: 1
+  m_AudioOutputMode: 2
+  m_TargetAudioSources: []
+  m_DirectAudioVolumes: []
+  m_Url: 
+  m_EnabledAudioTracks: 
+  m_DirectAudioMutes: 
+  m_ControlledAudioTrackCount: 0
+  m_PlayOnAwake: 1
+  m_SkipOnDrop: 1
+  m_Looping: 0
+  m_WaitForFirstFrame: 1
+  m_FrameReadyEventEnabled: 0
+  m_VideoShaders: []
+--- !u!4 &1466282281
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466282279}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1478389444
 GameObject:
   m_ObjectHideFlags: 0
@@ -2834,8 +2890,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mirrorPlace: {fileID: 340302318}
   locked: 0
-  cineStart: {fileID: 0}
-  cineFinish: {fileID: 0}
 --- !u!61 &1478389448
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3182,8 +3236,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mirrorPlace: {fileID: 442304296}
   locked: 0
-  cineStart: {fileID: 0}
-  cineFinish: {fileID: 0}
 --- !u!61 &1566775698
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3668,8 +3720,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mirrorPlace: {fileID: 843443542}
   locked: 0
-  cineStart: {fileID: 0}
-  cineFinish: {fileID: 0}
 --- !u!61 &1886850030
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3880,3 +3930,4 @@ SceneRoots:
   - {fileID: 1335718599}
   - {fileID: 1309183572}
   - {fileID: 762376389}
+  - {fileID: 1466282281}
