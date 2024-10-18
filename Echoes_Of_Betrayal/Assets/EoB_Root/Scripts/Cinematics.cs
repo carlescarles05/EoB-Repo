@@ -6,14 +6,10 @@ using UnityEngine.UI;
 public class Cinematics : MonoBehaviour
 {
 
-
-
     [Header("Cinematicas")]
     [SerializeField] GameObject cineStart;
     [SerializeField] GameObject cineFinish;
-    
-
-    // Update is called once per frame
+   
     void Update()
     {
         
@@ -26,5 +22,7 @@ public class Cinematics : MonoBehaviour
     {
         cineFinish.SetActive(true);
     }
+
+
 }
 
