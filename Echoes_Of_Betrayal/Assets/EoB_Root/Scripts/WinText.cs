@@ -5,7 +5,7 @@ using UnityEngine;
 public class WinText : MonoBehaviour
 {
     [SerializeField]
-    private GameObject gameObject;
+    
 
     private Mirror[] mirrors; // Para almacenar todas las piezas del puzzle
 
@@ -29,10 +29,6 @@ public class WinText : MonoBehaviour
             }
         }
 
-        // Si todas las piezas están bloqueadas, activa el texto de victoria
-        if (allLocked)
-        {
-            gameObject.SetActive(true);
-        }
+
     }
 }
