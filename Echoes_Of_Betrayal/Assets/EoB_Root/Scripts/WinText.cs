@@ -5,9 +5,9 @@ using UnityEngine;
 public class WinText : MonoBehaviour
 {
     [SerializeField]
-    
 
     private Mirror[] mirrors; // Para almacenar todas las piezas del puzzle
+
 
     private void Start()
     {
