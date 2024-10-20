@@ -19,19 +19,27 @@ public class GameManager : MonoBehaviour
         }
     }
     #endregion
-
+    [Header("Objetos chech")]
     public bool perezoso = false;
     public bool vaso = false;
     public bool llaves = false;
     public bool movil = false;
     public bool cuchillo = false;
-
     public bool allCheckItems = false;
+
+    [Header("Fase chech")]
     public bool firstPhase = true;
     public bool secondPhase = false;
     public bool rickDialogueClose = false;
 
-   
+    [Header("Seleccion chech")]
+    public bool powa = false;
+    public bool rick = false;
+    public bool kirei = false;
+    public bool fran = false;
+    public bool mery = false;
+    public bool allChechDialogues;
+
 
     public void Awake()
     {
@@ -45,6 +53,16 @@ public class GameManager : MonoBehaviour
         if (perezoso == true && llaves == true && vaso == true && movil == true)
         {
             allCheckItems = true;
+        }
+
+        if (fran == true && mery == true && rick == true && powa == true && kirei == true)
+        {
+            allChechDialogues = true;
+        }
+
+        if(allChechDialogues == true)
+        {
+            SceneManager.LoadScene(8);
         }
        
     }
@@ -77,11 +95,6 @@ public class GameManager : MonoBehaviour
     }
 
    
-
-    public void ChargeScene(string name)
-    {
-        SceneManager.LoadScene(name);
-    }
 
   
 

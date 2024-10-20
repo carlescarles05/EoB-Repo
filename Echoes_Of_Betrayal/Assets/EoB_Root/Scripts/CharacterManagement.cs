@@ -30,12 +30,12 @@ public class CharacterManagement : MonoBehaviour
     public void POWA()
     {
             Powa.SetActive(true);
-       
     }
 
     public void POWACLOSE()
     {
         Powa.SetActive(false);
+        GameManager.Instance.powa = true;
     }
 
     public void RICK()
@@ -47,36 +47,40 @@ public class CharacterManagement : MonoBehaviour
     {
         Rick.SetActive(false);
         GameManager.Instance.rickDialogueClose = true;
+        GameManager.Instance.rick = true;
     }
 
     public void MERY()
     {
-            Mery.SetActive(true);
+        Mery.SetActive(true);
         
     }
     public void MERYCLOSE()
     {
         Mery.SetActive(false);
+        GameManager.Instance.mery = true;
     }
 
     public void FRAN()
     {
-            Fran.SetActive(true);
+        Fran.SetActive(true);
         
     }
     public void FRANCLOSE()
     {
         Fran.SetActive(false);
+        GameManager.Instance.fran = true;
     }
 
     public void KIREI()
     {
-            Kirei.SetActive(true);
+        Kirei.SetActive(true);
         
     }
     public void KIREICLOSE()
     {
         Kirei.SetActive(false);
+        GameManager.Instance.kirei = true;
     }
 
     
