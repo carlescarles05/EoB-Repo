@@ -45,7 +45,7 @@ public class UIManagement : MonoBehaviour
     public GameObject perezosoGrande;
     public GameObject vasoGrande;
     public GameObject movilGrande;
-    public GameObject taquilla;
+    
 
 
     void Start()
