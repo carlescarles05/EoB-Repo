@@ -45,13 +45,11 @@ public class UIManagement : MonoBehaviour
     public GameObject perezosoGrande;
     public GameObject vasoGrande;
     public GameObject movilGrande;
-
-    
+    public GameObject taquilla;
 
 
     void Start()
     {
-        
 
         // Si el GameManager no se asignó en el Inspector, lo busca en la escena
         if (gameManager == null)
@@ -65,8 +63,7 @@ public class UIManagement : MonoBehaviour
         }
     }
 
-
-
+   
 
     public void PEREZOSO()
     {
