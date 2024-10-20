@@ -7,11 +7,17 @@ using UnityEngine.UI;
 
 public class InicionMenu : MonoBehaviour
 {
-    [SerializeField] GameObject objet;
+    [SerializeField] GameObject objet1;
+    [SerializeField] GameObject objet2;
 
 
     public void cisitis()
     {
-        objet.SetActive(true);
+        objet1.SetActive(true);
+    }
+
+    public void Deactivate()
+    {
+        objet2.SetActive(false);
     }
 }

@@ -1067,7 +1067,7 @@ RectTransform:
   m_GameObject: {fileID: 939683377}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.1023438, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1801338058}
@@ -1096,7 +1096,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1187157057
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1660,8 +1660,8 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1187157057}
   - {fileID: 939683378}
+  - {fileID: 1187157057}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1681,7 +1681,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d10de31f2c425f9439cabfc244252bfc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objet: {fileID: 939683377}
+  objet1: {fileID: 0}
+  objet2: {fileID: 1187157056}
 --- !u!1 &1466568955
 GameObject:
   m_ObjectHideFlags: 0
@@ -2179,7 +2180,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1438039841}
         m_TargetAssemblyTypeName: InicionMenu, Assembly-CSharp
-        m_MethodName: cisitis
+        m_MethodName: Deactivate
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
