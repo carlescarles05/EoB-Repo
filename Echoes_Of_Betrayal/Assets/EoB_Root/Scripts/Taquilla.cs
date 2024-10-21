@@ -12,7 +12,6 @@ public class Taquilla : MonoBehaviour
         taquilla.SetActive(false);
     }
 
-
     private void Update()
     {
         if (GameManager.Instance.allCheckItems == true)

@@ -9,7 +9,6 @@ public class Cuchillo : MonoBehaviour
     public Image myImage;
     public Button myButton;
 
-
     void Start()
     {
         myImage = GetComponent<Image>();
