@@ -1906,7 +1906,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1229359438
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1991,8 +1991,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cineStart: {fileID: 2137534054}
-  cineFinish: {fileID: 0}
-  videoPlayer: {fileID: 0}
+  cineFinish: {fileID: 1229359437}
+  videoPlayer: {fileID: 1229359439}
 --- !u!4 &1309183572
 Transform:
   m_ObjectHideFlags: 0
