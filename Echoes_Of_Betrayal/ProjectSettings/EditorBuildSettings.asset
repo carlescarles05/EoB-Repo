@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/EoB_Root/Scenes/SceneTest/MirrorFinaleScene.unity
     guid: 647440f66bd7193419b73de134402613
+  - enabled: 1
+    path: Assets/EoB_Root/Scenes/PowaPutoC.unity
+    guid: a46a253fd7a22044f9c01542a91b3355
   m_configObjects: {}

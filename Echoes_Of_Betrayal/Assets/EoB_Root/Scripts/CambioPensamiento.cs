@@ -5,11 +5,10 @@ using static NewBehaviourScript;
 using UnityEngine.UI;
 
 
-public class InicionMenu : MonoBehaviour
+public class CambioPensamiento : MonoBehaviour
 {
     [SerializeField] GameObject objet1;
     [SerializeField] GameObject objet2;
-
 
     public void cisitis()
     {
