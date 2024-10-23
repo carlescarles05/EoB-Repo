@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Video;
+using UnityEngine.SceneManagement;
 
 public class Cinematics : MonoBehaviour
 {
@@ -57,12 +58,16 @@ public class Cinematics : MonoBehaviour
     [SerializeField] VideoPlayer videoPlayer; // El VideoPlayer para reproducir el video
 
     private Mirror[] mirrors; // Para almacenar todas las piezas del puzzle
+
     private bool puzzleCompleted = false; // Para evitar que se repita la cinemática
+    public SceneManagement sceneManagement;
+
 
     private void Start()
     {
         // Encuentra todas las piezas (Mirror) en la escena
         mirrors = FindObjectsOfType<Mirror>();
+        sceneManagement = GetComponent<SceneManagement>();
 
         // Asegúrate de que el VideoPlayer esté desactivado al principio (si es necesario)
         if (videoPlayer != null)
@@ -91,7 +96,7 @@ public class Cinematics : MonoBehaviour
             if (allLocked)
             {
                 puzzleCompleted = true;
-                PlayVideo(); // Reproduce el video
+                sceneManagement.MIRRORFIN(); 
             }
         }
     }
