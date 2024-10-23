@@ -7,71 +7,34 @@ using static UnityEngine.AudioSettings;
 
 public class UIManagement : MonoBehaviour
 {
-
-    /*public GameManager gameManager;
-
-
-    // Update is called once per frame
-    void Update()
-    {
-        gameManager = GetComponent<GameManager>();
-    }
-
-    public void PEREZOSO()
-    {
-        gameManager.perezoso = true;
-    }
-
-    public void VASO()
-    {
-        gameManager.vaso = true;
-    }
-
-    public void LLAVES()
-    {
-        gameManager.llaves = true;
-    }
-
-    public void MOVIL()
-    {
-        gameManager.movil = true;
-    }*/
-
-    // Asignar el GameManager desde el Inspector
-    private GameManager gameManager;
-
+    [Header("ObjetosGrandes")]
     public GameObject cuchilloGrande;
     public GameObject llavesGrande;
     public GameObject perezosoGrande;
     public GameObject vasoGrande;
     public GameObject movilGrande;
+
+    [Header("Environment")]
+    public GameObject taquilla;
+
+    //[Header("SeleccionDeAsesino")]
+    //[SerializeField] GameObject canvasPersonajeKiller;
     
 
 
-    void Start()
+    void Update()
     {
-
-        // Si el GameManager no se asignó en el Inspector, lo busca en la escena
-        if (gameManager == null)
+        if (GameManager.Instance.allChechDialogues == true)
         {
-            gameManager = FindObjectOfType<GameManager>(); // Busca el GameManager en toda la escena
-        }
-
-        if (gameManager == null)
-        {
-            Debug.LogError("GameManager no encontrado. Asegúrate de que está en la escena.");
+            //canvasPersonajeKiller.SetActive(true);
         }
     }
 
-   
-
     public void PEREZOSO()
     {
-        if (gameManager != null)
-        {
-            gameManager.perezoso = true;
-            perezosoGrande.SetActive(true);
-        }
+        GameManager.Instance.perezoso = true;
+        perezosoGrande.SetActive(true);
+        
     }
     public void PEREZOSOGRANDE()
     {
@@ -80,11 +43,9 @@ public class UIManagement : MonoBehaviour
 
     public void VASO()
     {
-        if (gameManager != null)
-        {
-            gameManager.vaso = true;
-            vasoGrande.SetActive(true);
-        }
+        GameManager.Instance.vaso = true;
+        vasoGrande.SetActive(true);
+        
     }
     public void VASOGRANDE()
     {
@@ -93,11 +54,9 @@ public class UIManagement : MonoBehaviour
 
     public void LLAVES()
     {
-        if (gameManager != null)
-        {
-            gameManager.llaves = true;
-            llavesGrande.SetActive(true);
-        }
+        GameManager.Instance.llaves = true;
+        llavesGrande.SetActive(true);
+        
     }
     public void LLAVESGRANDE()
     {
@@ -106,11 +65,9 @@ public class UIManagement : MonoBehaviour
 
     public void MOVIL()
     {
-        if (gameManager != null)
-        {
-            gameManager.movil = true;
-            movilGrande.SetActive(true);
-        }
+        GameManager.Instance.movil = true;
+        movilGrande.SetActive(true);
+        
     }
     public void MOVILGRANDE()
     {
@@ -119,16 +76,33 @@ public class UIManagement : MonoBehaviour
 
     public void CUCHILLO()
     {
-        if (gameManager != null)
-        {
-            gameManager.cuchillo = true;
-            cuchilloGrande.SetActive(true);
-        }
+        GameManager.Instance.cuchillo = true;
+        cuchilloGrande.SetActive(true);
+        
     }
     public void CUCHILLOGRANDE()
     {
         cuchilloGrande.SetActive(false);
-        gameManager.secondPhase = true;
+        GameManager.Instance.secondPhase = true;
     }
 
+    public void TAQUILLA()
+    {
+        
+    }
+
+    public void MIRRORFIN()
+    {
+
+    }
+
+    public void RISAS()
+    {
+
+    }
+    
+    public void APUÑALADAS()
+    {
+
+    }
 }

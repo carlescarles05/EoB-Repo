@@ -22,9 +22,21 @@ public class SceneManagement : MonoBehaviour
             SceneManager.LoadScene(4);
         }
     }
-
-    public void GoRisa()
+    public void MIRRORFIN()
     {
-            SceneManager.LoadScene(10);
+        GameManager.Instance.mirrorFin = true;
+        SceneManager.LoadScene(10);
+    }
+
+    public void RISAS()
+    {
+        GameManager.Instance.risas = true;
+        SceneManager.LoadScene(10);
+    }
+
+    public void PUÑALADAS()
+    {
+        GameManager.Instance.puñaladas = true;
+        SceneManager.LoadScene(10);
     }
 }

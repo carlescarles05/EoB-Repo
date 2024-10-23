@@ -40,6 +40,11 @@ public class GameManager : MonoBehaviour
     public bool mery = false;
     public bool allChechDialogues;
 
+    [Header("Finale CHECH")]
+    public bool risas = false;
+    public bool puñaladas = false;
+    public bool mirrorFin = false;
+
 
     public void Awake()
     {
@@ -60,11 +65,8 @@ public class GameManager : MonoBehaviour
             allChechDialogues = true;
         }
 
-        if(allChechDialogues == true)
-        {
-            SceneManager.LoadScene(8);
-        }
-       
+        Killer();
+
     }
 
     public void PEREZOSO()
@@ -94,8 +96,15 @@ public class GameManager : MonoBehaviour
         firstPhase = false;
     }
 
-   
 
-  
+    public void Killer()
+    {
+        if (allChechDialogues == true)
+        {
+            SceneManager.LoadScene(8);
+            allChechDialogues = false;
+            powa = false;
+        }
+    }
 
 }

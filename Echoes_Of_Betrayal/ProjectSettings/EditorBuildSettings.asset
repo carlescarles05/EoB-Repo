@@ -30,12 +30,12 @@ EditorBuildSettings:
     path: Assets/EoB_Root/Scenes/PasilloScene.unity
     guid: f7e04b2953a7f1b4d97bb22335bfa6e8
   - enabled: 1
-    path: Assets/EoB_Root/Scenes/KillerScene.unity
-    guid: e2e79dd99db9dc647b5cd588cd3af20e
+    path: Assets/EoB_Root/Scenes/KillingScene.unity
+    guid: bb55956b3a731944fb4ddd9869dad2dd
   - enabled: 1
     path: Assets/EoB_Root/Scenes/SceneTest/MirrorFinaleScene.unity
     guid: 647440f66bd7193419b73de134402613
   - enabled: 1
-    path: Assets/EoB_Root/Scenes/PowaPutoC.unity
+    path: Assets/EoB_Root/Scenes/Videos.unity
     guid: a46a253fd7a22044f9c01542a91b3355
   m_configObjects: {}

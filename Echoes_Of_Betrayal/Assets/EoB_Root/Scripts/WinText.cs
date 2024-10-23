@@ -5,9 +5,8 @@ using UnityEngine;
 public class WinText : MonoBehaviour
 {
     [SerializeField]
-
+    bool allLocked = true;
     private Mirror[] mirrors; // Para almacenar todas las piezas del puzzle
-
 
     private void Start()
     {
@@ -19,7 +18,7 @@ public class WinText : MonoBehaviour
     private void Update()
     {
         // Verifica si todas las piezas están bloqueadas
-        bool allLocked = true;
+        
         foreach (Mirror mirror in mirrors)
         {
             if (!mirror.locked)

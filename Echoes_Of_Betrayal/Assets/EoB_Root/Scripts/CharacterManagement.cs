@@ -13,11 +13,6 @@ public class CharacterManagement : MonoBehaviour
 
     public GameObject contenedorCharacter;
 
-    void Start()
-    {
-
-        
-    }
 
     private void Update()
     {
@@ -83,5 +78,4 @@ public class CharacterManagement : MonoBehaviour
         GameManager.Instance.kirei = true;
     }
 
-    
 }
