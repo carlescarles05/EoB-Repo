@@ -91,18 +91,5 @@ public class UIManagement : MonoBehaviour
         
     }
 
-    public void MIRRORFIN()
-    {
-
-    }
-
-    public void RISAS()
-    {
-
-    }
     
-    public void APUÑALADAS()
-    {
-
-    }
 }
