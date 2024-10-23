@@ -141,7 +141,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!328 &250524882
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -349,7 +349,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!328 &859083333
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -513,9 +513,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Finales:
-  - {fileID: 859083332}
-  - {fileID: 250524881}
-  - {fileID: 1684638248}
+  - {fileID: 1650013649}
+  - {fileID: 1395699557}
+  - {fileID: 1329543774}
 --- !u!1 &1217029271
 GameObject:
   m_ObjectHideFlags: 0
@@ -737,7 +737,7 @@ GameObject:
   - component: {fileID: 1395699560}
   - component: {fileID: 1395699559}
   m_Layer: 5
-  m_Name: risa
+  m_Name: "pu\xF1al"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1022,7 +1022,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1684638249
 MonoBehaviour:
   m_ObjectHideFlags: 0
