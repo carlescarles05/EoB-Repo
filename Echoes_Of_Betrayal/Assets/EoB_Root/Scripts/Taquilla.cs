@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Taquilla : MonoBehaviour
 {
@@ -14,9 +15,15 @@ public class Taquilla : MonoBehaviour
 
     private void Update()
     {
-        if (GameManager.Instance.allCheckItems == true)
+        TAQUILLA();
+    }
+
+    void TAQUILLA()
+    {
+        if (GameManager.Instance.allCheckItems == true && GameManager.Instance.rickDialogueClose == true)
         {
             taquilla.SetActive(true);
+
         }
     }
 }
