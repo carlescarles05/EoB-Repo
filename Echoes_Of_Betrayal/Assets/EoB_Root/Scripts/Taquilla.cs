@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Audio;
 
 public class Taquilla : MonoBehaviour
 {
@@ -23,7 +24,7 @@ public class Taquilla : MonoBehaviour
         if (GameManager.Instance.allCheckItems == true && GameManager.Instance.rickDialogueClose == true)
         {
             taquilla.SetActive(true);
-
+            
         }
     }
 }
