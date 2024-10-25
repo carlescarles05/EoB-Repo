@@ -19,24 +19,24 @@ public class SceneManagement : MonoBehaviour
     {
         if (GameManager.Instance.secondPhase == true)        
         {
-            SceneManager.LoadScene(4);
+            SceneManager.LoadScene(2);
         }
     }
     public void MIRRORFIN()
     {
         GameManager.Instance.mirrorFin = true;
-        SceneManager.LoadScene(10);
+        SceneManager.LoadScene(7);
     }
 
     public void RISAS()
     {
         GameManager.Instance.risas = true;
-        SceneManager.LoadScene(10);
+        SceneManager.LoadScene(7);
     }
 
     public void PUÑALADAS()
     {
         GameManager.Instance.puñaladas = true;
-        SceneManager.LoadScene(10);
+        SceneManager.LoadScene(7);
     }
 }

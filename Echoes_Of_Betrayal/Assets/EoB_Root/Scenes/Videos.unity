@@ -141,7 +141,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!328 &250524882
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -480,7 +480,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!328 &859083333
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -647,6 +647,7 @@ MonoBehaviour:
   - {fileID: 1650013649}
   - {fileID: 1395699557}
   - {fileID: 1329543774}
+  audioSource: {fileID: 1395699561}
 --- !u!114 &1029345284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1399,7 +1400,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1684638249
 MonoBehaviour:
   m_ObjectHideFlags: 0

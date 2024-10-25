@@ -101,7 +101,7 @@ public class GameManager : MonoBehaviour
     {
         if (allChechDialogues == true)
         {
-            SceneManager.LoadScene(8);
+            SceneManager.LoadScene(6);
             allChechDialogues = false;
             powa = false;
         }
