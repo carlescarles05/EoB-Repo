@@ -261,7 +261,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xBFEste es tu cuchillo verdad? "
+  m_text: "\xBFESTE ES TU CUCHILLO VERDAD? "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 370304b5abca7b049bf6348e4d9b1a35, type: 2}
   m_sharedMaterial: {fileID: 1427122281660819956, guid: 370304b5abca7b049bf6348e4d9b1a35, type: 2}
@@ -4532,7 +4532,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xBFHola?"
+  m_text: "\xBFHOLA?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 370304b5abca7b049bf6348e4d9b1a35, type: 2}
   m_sharedMaterial: {fileID: 1427122281660819956, guid: 370304b5abca7b049bf6348e4d9b1a35, type: 2}
@@ -6334,7 +6334,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 311, y: 48}
+  m_AnchoredPosition: {x: 301, y: 48}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1933922039

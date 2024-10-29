@@ -579,7 +579,7 @@ GameObject:
   m_Component:
   - component: {fileID: 91349574}
   - component: {fileID: 91349575}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: estrella_centro (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -661,7 +661,7 @@ GameObject:
   m_Component:
   - component: {fileID: 135979542}
   - component: {fileID: 135979543}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: estrella_redio (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -883,7 +883,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &143401162
 Transform:
   m_ObjectHideFlags: 0
@@ -1285,7 +1285,7 @@ GameObject:
   m_Component:
   - component: {fileID: 232687249}
   - component: {fileID: 232687250}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: estrella
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2473,7 +2473,7 @@ GameObject:
   m_Component:
   - component: {fileID: 590526411}
   - component: {fileID: 590526412}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: estrella_redio (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2639,7 +2639,7 @@ GameObject:
   m_Component:
   - component: {fileID: 632422418}
   - component: {fileID: 632422419}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ventana
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2972,7 +2972,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 688490941}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ventana
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3007,7 +3007,7 @@ GameObject:
   m_Component:
   - component: {fileID: 693832228}
   - component: {fileID: 693832229}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: estrella_redio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3089,7 +3089,7 @@ GameObject:
   m_Component:
   - component: {fileID: 701587098}
   - component: {fileID: 701587099}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ventana
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3263,7 +3263,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!95 &751348658
 Animator:
   serializedVersion: 5
@@ -4364,7 +4364,7 @@ GameObject:
   m_Component:
   - component: {fileID: 987651567}
   - component: {fileID: 987651568}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: estrella (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4613,7 +4613,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1025913378}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Estrellas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5264,7 +5264,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1189978861
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5898,7 +5898,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1282238597}
   - component: {fileID: 1282238598}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Global
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6148,7 +6148,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1345189091}
   - component: {fileID: 1345189092}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Reflection Probe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6297,7 +6297,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1364400176}
   - component: {fileID: 1364400177}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Reflection Probe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6329,7 +6329,7 @@ ReflectionProbe:
   m_Enabled: 1
   serializedVersion: 2
   m_Type: 0
-  m_Mode: 0
+  m_Mode: 1
   m_RefreshMode: 0
   m_TimeSlicingMode: 0
   m_Resolution: 128
@@ -6553,7 +6553,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1422463674}
   - component: {fileID: 1422463675}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ventan_luz_final
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6878,7 +6878,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1476370332}
   - component: {fileID: 1476370333}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: estrella_centro (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7369,7 +7369,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1509670063}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Decora
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7508,7 +7508,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1534722466}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Luses
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7544,7 +7544,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1540173099}
   - component: {fileID: 1540173100}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: estrella (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7710,7 +7710,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1560715111}
   - component: {fileID: 1560715112}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: estrella_centro (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8029,7 +8029,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1636740334}
   - component: {fileID: 1636740335}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: estrella_centro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8111,7 +8111,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1637956886}
   - component: {fileID: 1637956887}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Global
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8192,7 +8192,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1638361258}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Window
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8227,7 +8227,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1651733979}
   - component: {fileID: 1651733980}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ventana
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8477,7 +8477,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1690827848}
   - component: {fileID: 1690827849}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ventana (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8736,7 +8736,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1739211625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8843,7 +8843,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1764831870}
   - component: {fileID: 1764831871}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: estrella (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8925,7 +8925,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1774906318}
   - component: {fileID: 1774906319}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ventan_luz_final
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9585,7 +9585,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2037009297}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Luses
   m_TagString: Untagged
   m_Icon: {fileID: 0}
