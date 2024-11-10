@@ -648,6 +648,7 @@ MonoBehaviour:
   - {fileID: 250524881}
   - {fileID: 1684638248}
   audioSource: {fileID: 0}
+  clip: {fileID: 8300000, guid: 26e2d9ec32b34994e8f37c680b29eda9, type: 3}
 --- !u!114 &1029345284
 MonoBehaviour:
   m_ObjectHideFlags: 0
