@@ -9324,9 +9324,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f76c4fe98d2335748823d14dd6554b5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraSpeed: 0.5
-  minCameraX: -37.2
-  maxCameraX: 37.2
+  cameraSpeed: 1.5
+  minCameraX: -40.2
+  maxCameraX: 39.9
 --- !u!114 &1162174137
 MonoBehaviour:
   m_ObjectHideFlags: 0
