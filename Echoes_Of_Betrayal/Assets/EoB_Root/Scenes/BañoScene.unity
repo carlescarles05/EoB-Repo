@@ -393,12 +393,12 @@ MonoBehaviour:
   dialogue:
     name: Powa
     sentences:
-    - "KIREI:\n\n\xBFDonde estara...?"
-    - "TU:\n\nHola, \xBFEstas buscando esto?"
+    - "KIREI:\n\n\xBFD\xF3nde estar\xE1...?"
+    - "TU:\n\nHola, \xBFEst\xE1s buscando esto?"
     - "KIREI:\n\n\xA1Mi navaja! Gracias a jesucristo el robot del futuro, pensaba
-      que jamas la encontraria..."
-    - "TU:\n\n\xBFCuando la perdiste?"
-    - "KIREI:\n\nEsta ma\xF1ana, antes de entrar a la fiesta"
+      que jam\xE1s la encontrar\xEDa..."
+    - "TU:\n\n\xBFCu\xE1ndo la perdiste?"
+    - "KIREI:\n\nEsta ma\xF1ana, antes de entrar a la fiesta."
     - 'TU:
 
 
@@ -4232,7 +4232,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1209270649
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6438,7 +6438,7 @@ MonoBehaviour:
   dialogue:
     name: Powa
     sentences:
-    - "TU:\n\n\xBFPorque tiene sangre?"
+    - "TU:\n\n\xBFPor qu\xE9 tiene sangre?"
     - "TU:\n\n\xBFNo te parece muy sospechoso de tu parte?"
     - "KIREI:\n\nSOSPECHOSO ES QUE EN ESPA\xD1A HAYA 350 DIPUTADOS EN EL CONGRESO,
       QUE COBREN APROXIMADAMENTE 3126,89\u20AC Y LUEGO NO HAYA NADA PARA EL RESTO,
@@ -6446,7 +6446,7 @@ MonoBehaviour:
     - 'KIREI:
 
 
-      IDEAZA'
+      IDEAZA.'
   manager: {fileID: 0}
   button: {fileID: 172199437}
   continueButton: {fileID: 555956369}

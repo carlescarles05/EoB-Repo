@@ -1,4 +1,4 @@
-/*using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -43,8 +43,8 @@ public class CameraSwipe : MonoBehaviour
             }
         }
     }
-}*/
-using System.Collections;
+}
+/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -85,4 +85,4 @@ public class CameraSwipe : MonoBehaviour
             Camera.main.transform.position = new Vector3(newCameraPosX, Camera.main.transform.position.y, Camera.main.transform.position.z);
         }
     }
-}
+}*/
