@@ -7346,7 +7346,7 @@ Transform:
   m_GameObject: {fileID: 930569849}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -29.3, y: 1.5, z: -10}
+  m_LocalPosition: {x: -28.6, y: 1.5, z: -10}
   m_LocalScale: {x: 0.3169725, y: 0.39012, z: 0.39012}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8218,7 +8218,7 @@ MonoBehaviour:
     - 'MERY:
 
 
-      No, es el vaso de Curry'
+      No, es el vaso de Curry.'
     - "TU:\n\n\xBFPor qu\xE9 lo tienes tu? Me parece un poco raro..."
     - "MERY:\n\nMe lo di\xF3 porqu\xE9 ten\xEDa que ir al ba\xF1o y le d\xED un sorbo."
   manager: {fileID: 0}
@@ -8875,7 +8875,7 @@ MonoBehaviour:
 
 
       Eramos amigos de la infancia...'
-    - "FRAN:\n\nHab\xEDa quedado con \xE9l antes de la fiesta"
+    - "FRAN:\n\nHab\xEDa quedado con \xE9l antes de la fiesta."
   manager: {fileID: 0}
   button: {fileID: 1517492859}
   continueButton: {fileID: 1921697006}
@@ -9326,7 +9326,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraSpeed: 1.5
   minCameraX: -40.2
-  maxCameraX: 39.9
+  maxCameraX: 38.7
 --- !u!114 &1162174137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10262,7 +10262,7 @@ MonoBehaviour:
   dialogue:
     name: Mery
     sentences:
-    - "MERY: \n\nHoli"
+    - "MERY: \n\nHoli."
     - "TU:\n\n\xBFEste color de pintalabios es tuyo?"
     - "MERY:\n\nS\xED, lo compr\xE9 en Florimark \xBFTe gusta?"
     - "MERY:\n\nCuando quieras te ense\xF1o donde est\xE1."
@@ -12770,14 +12770,11 @@ MonoBehaviour:
 
       ...'
     - "TU:\n\n\xBFEste es tu llavero verdad?"
-    - "POWA:\n\n\xA1Si lo es! Donde estaba?"
-    - 'TU:
-
-
-      Al lado del cadaver'
-    - "TU:\n\n\xBFComo acab\xF3 tu llavero ah\xED?"
+    - "POWA:\n\n\xA1Si lo es! \xBFD\xF3nde estaba?"
+    - "TU:\n\nAl lado del cad\xE1ver."
+    - "TU:\n\n\xBFC\xF3mo acab\xF3 tu llavero ah\xED?"
     - "POWA:\n\nSe fue la luz y me asust\xE9, la cuerda del llavero esta bastante
-      desgastada y se debi\xF3 romper cuando me sorprend\xED"
+      desgastada y se debi\xF3 romper cuando me sorprend\xED."
     - 'POWA:
 
 
@@ -13356,8 +13353,8 @@ MonoBehaviour:
   dialogue:
     name: Fran
     sentences:
-    - "FRAN:\n\n\xBFDe donde has sacado eso?"
-    - "TU:\n\nDe la papelera del ba\xF1o"
+    - "FRAN:\n\n\xBFDe d\xF3nde has sacado eso?"
+    - "TU:\n\nDe la papelera del ba\xF1o."
     - "FRAN:\n\nEra de Curry, no s\xE9 como pudo terminar ah\xED."
   manager: {fileID: 0}
   button: {fileID: 1517492859}
@@ -16424,8 +16421,8 @@ MonoBehaviour:
     name: Powa
     sentences:
     - "TU:\n\n\xBFConoces a la v\xEDctima?"
-    - "POWA:\n\nSi, eramos compa\xF1eros del a\xF1o pasado, nunca nos hemos llevado
-      bien"
+    - "POWA:\n\nS\xED, eramos compa\xF1eros del a\xF1o pasado, nunca nos hemos llevado
+      bien."
   manager: {fileID: 0}
   button: {fileID: 416869041}
   continueButton: {fileID: 241030275}
