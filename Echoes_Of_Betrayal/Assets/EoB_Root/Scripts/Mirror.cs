@@ -1,4 +1,4 @@
-using System.Collections;
+/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 public class Mirror : MonoBehaviour
@@ -55,8 +55,8 @@ public class Mirror : MonoBehaviour
         }
     }
     
-}
-/*using System.Collections;
+}*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -120,6 +120,6 @@ public class Mirror : MonoBehaviour
             }
         }
     }
-}*/
+}
 
 

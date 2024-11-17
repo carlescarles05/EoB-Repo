@@ -39,51 +39,56 @@ public class UIManagement : MonoBehaviour
     public void PEREZOSOGRANDE()
     {
         perezosoGrande.SetActive(false);
+        GameManager.Instance.countObject++;
     }
 
     public void VASO()
     {
         GameManager.Instance.vaso = true;
         vasoGrande.SetActive(true);
-        
+
     }
     public void VASOGRANDE()
     {
         vasoGrande.SetActive(false);
+        GameManager.Instance.countObject++;
     }
 
     public void LLAVES()
     {
         GameManager.Instance.llaves = true;
         llavesGrande.SetActive(true);
-        
+
     }
     public void LLAVESGRANDE()
     {
         llavesGrande.SetActive(false);
+        GameManager.Instance.countObject++;
     }
 
     public void MOVIL()
     {
         GameManager.Instance.movil = true;
         movilGrande.SetActive(true);
-        
+
     }
     public void MOVILGRANDE()
     {
         movilGrande.SetActive(false);
+        GameManager.Instance.countObject++;
     }
 
     public void CUCHILLO()
     {
         GameManager.Instance.cuchillo = true;
         cuchilloGrande.SetActive(true);
-        
+
     }
     public void CUCHILLOGRANDE()
     {
         cuchilloGrande.SetActive(false);
         GameManager.Instance.secondPhase = true;
+        GameManager.Instance.countObject++;
     }
 
     public void TAQUILLA()

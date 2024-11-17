@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
@@ -45,6 +46,8 @@ public class GameManager : MonoBehaviour
     public bool puñaladas = false;
     public bool mirrorFin = false;
 
+    [Header("FeedBack Player")]
+    public int countObject;
 
     public void Awake()
     {
@@ -67,6 +70,7 @@ public class GameManager : MonoBehaviour
 
         Killer();
 
+        
     }
 
     public void PEREZOSO()
