@@ -39,7 +39,10 @@ public class UIManagement : MonoBehaviour
     public void PEREZOSOGRANDE()
     {
         perezosoGrande.SetActive(false);
-        GameManager.Instance.countObject++;
+        if (GameManager.Instance.firstPhase == true)
+        {
+            GameManager.Instance.countObject++;
+        }
     }
 
     public void VASO()
@@ -51,7 +54,10 @@ public class UIManagement : MonoBehaviour
     public void VASOGRANDE()
     {
         vasoGrande.SetActive(false);
-        GameManager.Instance.countObject++;
+        if (GameManager.Instance.firstPhase == true)
+        {
+            GameManager.Instance.countObject++;
+        }
     }
 
     public void LLAVES()
@@ -62,8 +68,12 @@ public class UIManagement : MonoBehaviour
     }
     public void LLAVESGRANDE()
     {
+        if (GameManager.Instance.firstPhase == true)
+        {
+            GameManager.Instance.countObject++;
+        }
         llavesGrande.SetActive(false);
-        GameManager.Instance.countObject++;
+        
     }
 
     public void MOVIL()
@@ -75,7 +85,10 @@ public class UIManagement : MonoBehaviour
     public void MOVILGRANDE()
     {
         movilGrande.SetActive(false);
-        GameManager.Instance.countObject++;
+        if (GameManager.Instance.firstPhase == true)
+        {
+            GameManager.Instance.countObject++;
+        }
     }
 
     public void CUCHILLO()
@@ -89,7 +102,6 @@ public class UIManagement : MonoBehaviour
         cuchilloGrande.SetActive(false);
         GameManager.Instance.secondPhase = true;
         GameManager.Instance.countObject = 1;
-        
     }
 
     public void TAQUILLA()
