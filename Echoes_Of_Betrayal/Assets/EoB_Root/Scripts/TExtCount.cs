@@ -15,7 +15,6 @@ public class Timer1 : MonoBehaviour
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (GameManager.Instance.firstPhase == true)
@@ -23,13 +22,11 @@ public class Timer1 : MonoBehaviour
             textCounter.text = GameManager.Instance.countObject.ToString();
             textIndicator.text = "PISTAS RECOLECTADAS";
         }
-        if (GameManager.Instance.secondPhase == false)
+        if (GameManager.Instance.secondPhase == true)
         {
             textCounter.text = GameManager.Instance.countObject.ToString();
             textIndicator.text = "SOSPECHOSOS INTERROGADOS";
         }
-
-
 
     }
 

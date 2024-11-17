@@ -88,7 +88,8 @@ public class UIManagement : MonoBehaviour
     {
         cuchilloGrande.SetActive(false);
         GameManager.Instance.secondPhase = true;
-        GameManager.Instance.countObject++;
+        GameManager.Instance.countObject = 1;
+        
     }
 
     public void TAQUILLA()

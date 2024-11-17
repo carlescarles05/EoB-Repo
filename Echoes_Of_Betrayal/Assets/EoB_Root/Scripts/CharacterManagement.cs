@@ -40,6 +40,7 @@ public class CharacterManagement : MonoBehaviour
         Powa.SetActive(false);
         GameManager.Instance.powa = true;
         cameraSwipe.cameraSpeed = 0.5f;
+        GameManager.Instance.countObject++;
     }
 
     public void RICK()
@@ -54,6 +55,7 @@ public class CharacterManagement : MonoBehaviour
         GameManager.Instance.rickDialogueClose = true;
         GameManager.Instance.rick = true;
         cameraSwipe.cameraSpeed = 0.5f;
+        
     }
 
     public void MERY()
@@ -66,6 +68,7 @@ public class CharacterManagement : MonoBehaviour
         Mery.SetActive(false);
         GameManager.Instance.mery = true;
         cameraSwipe.cameraSpeed = 0.5f;
+        GameManager.Instance.countObject++;
     }
 
     public void FRAN()
@@ -78,6 +81,7 @@ public class CharacterManagement : MonoBehaviour
         Fran.SetActive(false);
         GameManager.Instance.fran = true;
         cameraSwipe.cameraSpeed = 0.5f;
+        GameManager.Instance.countObject++;
     }
 
     public void KIREI()
@@ -90,6 +94,7 @@ public class CharacterManagement : MonoBehaviour
         Kirei.SetActive(false);
         GameManager.Instance.kirei = true;
         cameraSwipe.cameraSpeed = 0.5f;
+        GameManager.Instance.countObject++;
     }
 
 }
