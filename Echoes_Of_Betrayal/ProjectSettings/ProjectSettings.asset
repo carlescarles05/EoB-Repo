@@ -14,7 +14,7 @@ PlayerSettings:
   accelerometerFrequency: 60
   companyName: DefaultCompany
   productName: Echoes_Of_Betrayal
-  defaultCursor: {fileID: 0}
+  defaultCursor: {fileID: 2800000, guid: 230e2a13183af6646b3d540a2f8e0939, type: 3}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
   m_ShowUnitySplashScreen: 1
@@ -162,6 +162,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.DefaultCompany.Echoes_Of_Betrayal
+    Standalone: com.DefaultCompany.Echoes-Of-Betrayal
   buildNumber:
     Standalone: 0
     VisionOS: 0

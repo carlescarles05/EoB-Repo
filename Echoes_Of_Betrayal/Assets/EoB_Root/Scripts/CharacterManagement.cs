@@ -32,15 +32,19 @@ public class CharacterManagement : MonoBehaviour
     public void POWA()
     {
         Powa.SetActive(true);
-        cameraSwipe.cameraSpeed = 0f;
+        cameraSwipe.cameraSpeed = cameraSwipe.cameraSpeed * 0;
     }
 
     public void POWACLOSE()
     {
         Powa.SetActive(false);
-        GameManager.Instance.powa = true;
-        cameraSwipe.cameraSpeed = 0.5f;
-        GameManager.Instance.countObject++;
+        cameraSwipe.cameraSpeed = 1.5f;
+        if (GameManager.Instance.powa == false)
+        {
+            GameManager.Instance.powa = true;
+            GameManager.Instance.countObject++;
+        
+        }
     }
 
     public void RICK()
@@ -61,40 +65,53 @@ public class CharacterManagement : MonoBehaviour
     public void MERY()
     {
         Mery.SetActive(true);
-        cameraSwipe.cameraSpeed = 0f;
+        cameraSwipe.cameraSpeed = cameraSwipe.cameraSpeed * 0;
     }
     public void MERYCLOSE()
     {
         Mery.SetActive(false);
-        GameManager.Instance.mery = true;
-        cameraSwipe.cameraSpeed = 0.5f;
-        GameManager.Instance.countObject++;
+        
+        cameraSwipe.cameraSpeed = 1.5f;
+        if (GameManager.Instance.mery == false)
+        {
+            GameManager.Instance.countObject++;
+            GameManager.Instance.mery = true;
+        }
     }
 
     public void FRAN()
     {
         Fran.SetActive(true);
-        cameraSwipe.cameraSpeed = 0f;
+        cameraSwipe.cameraSpeed = cameraSwipe.cameraSpeed * 0;
     }
     public void FRANCLOSE()
     {
         Fran.SetActive(false);
-        GameManager.Instance.fran = true;
-        cameraSwipe.cameraSpeed = 0.5f;
-        GameManager.Instance.countObject++;
+
+        cameraSwipe.cameraSpeed = 1.5f;
+        if (GameManager.Instance.fran == false)
+        {
+            GameManager.Instance.countObject++;
+            GameManager.Instance.fran = true;
+        }
     }
 
     public void KIREI()
     {
         Kirei.SetActive(true);
-        cameraSwipe.cameraSpeed = 0f;
+        cameraSwipe.cameraSpeed = cameraSwipe.cameraSpeed * 0;
     }
     public void KIREICLOSE()
     {
         Kirei.SetActive(false);
-        GameManager.Instance.kirei = true;
-        cameraSwipe.cameraSpeed = 0.5f;
-        GameManager.Instance.countObject++;
+        cameraSwipe.cameraSpeed = 1.5f;
+        
+        if (GameManager.Instance.kirei == false)
+        {
+            GameManager.Instance.countObject++;
+            GameManager.Instance.kirei = true;
+        }
+        
     }
 
 }

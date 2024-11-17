@@ -32,45 +32,47 @@ public class UIManagement : MonoBehaviour
 
     public void PEREZOSO()
     {
-        GameManager.Instance.perezoso = true;
         perezosoGrande.SetActive(true);
         
     }
     public void PEREZOSOGRANDE()
     {
+        
         perezosoGrande.SetActive(false);
-        if (GameManager.Instance.firstPhase == true)
+        if (GameManager.Instance.firstPhase == true && GameManager.Instance.perezoso == false)
         {
+            GameManager.Instance.perezoso = true;
             GameManager.Instance.countObject++;
         }
     }
 
     public void VASO()
     {
-        GameManager.Instance.vaso = true;
         vasoGrande.SetActive(true);
 
     }
     public void VASOGRANDE()
     {
         vasoGrande.SetActive(false);
-        if (GameManager.Instance.firstPhase == true)
+        if (GameManager.Instance.firstPhase == true && GameManager.Instance.vaso == false)
         {
             GameManager.Instance.countObject++;
+            GameManager.Instance.vaso = true;
         }
     }
 
     public void LLAVES()
     {
-        GameManager.Instance.llaves = true;
         llavesGrande.SetActive(true);
 
     }
     public void LLAVESGRANDE()
     {
-        if (GameManager.Instance.firstPhase == true)
+        if (GameManager.Instance.firstPhase == true && GameManager.Instance.llaves == false)
         {
             GameManager.Instance.countObject++;
+            GameManager.Instance.llaves = true;
+
         }
         llavesGrande.SetActive(false);
         
@@ -78,30 +80,33 @@ public class UIManagement : MonoBehaviour
 
     public void MOVIL()
     {
-        GameManager.Instance.movil = true;
         movilGrande.SetActive(true);
 
     }
     public void MOVILGRANDE()
     {
         movilGrande.SetActive(false);
-        if (GameManager.Instance.firstPhase == true)
+        if (GameManager.Instance.firstPhase == true && GameManager.Instance.movil == false)
         {
             GameManager.Instance.countObject++;
+            GameManager.Instance.movil = true;
         }
     }
 
     public void CUCHILLO()
     {
-        GameManager.Instance.cuchillo = true;
         cuchilloGrande.SetActive(true);
 
     }
-    public void CUCHILLOGRANDE()
+    public void CUCHILLOGRANDE(bool yaHanHablado = false)
     {
         cuchilloGrande.SetActive(false);
         GameManager.Instance.secondPhase = true;
         GameManager.Instance.countObject = 1;
+        if (GameManager.Instance.cuchillo == false)
+        {
+            GameManager.Instance.cuchillo = true;
+        }
     }
 
     public void TAQUILLA()
